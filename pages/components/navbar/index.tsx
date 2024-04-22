@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <nav className="border-b border-gray-400 sticky top-0 bg-black">
-      <div className="flex flex-row justify-between items-center py-4 max-w-[1150px] mx-auto px-4">
+      <div className="flex flex-row justify-between items-center py-4 max-w-[1100px] mx-auto px-4">
         <div className="flex items-center gap-6 font-bold text-xl">
           <Image
             src="/menu.png"

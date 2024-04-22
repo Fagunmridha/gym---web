@@ -9,16 +9,14 @@ const Home = () => {
   return (
     <main className="bg-black">
       <Navbar />
-      <div className="max-w-[1150px] mx-auto px-4">
-        <section className="py-20">
+      <div className="max-w-[1100px] mx-auto px-6">
+        <section className="md:py-[100px] py-20">
           <div className="">
-            <h1 className="text-white font-bold text-[40px] md:text-9xl ">
-              Serious tracking
-              <br /> for serious gym <br />
-              workouts.
+            <h1 className="text-white font-semibold  md:font-bold leading-none text-[40px]  md:text-9xl ">
+              Serious tracking for serious gym workouts.
             </h1>
-            <div className="py-10">
-              <Image src="/gym.svg" alt="gym image" height={200} width={200} />
+            <div className="mt-10">
+              <Image src="/gym.svg" alt="gym image" height={150} width={150} />
             </div>
           </div>
         </section>
@@ -43,19 +41,28 @@ const Home = () => {
               Athletic <br />
               by design.
             </h1>
-            <p className="text-white text-2xl md:text-3xl">
+            <p className="text-white text-2xl md:text-3xl mb-24">
               Made purly for the gym
             </p>
           </div>
 
           <div className=" ">
             <Image
+              className=" hidden md:block"
               src="/big-bg.svg"
               alt="big image card"
               height={800}
               width={800}
             />
-            <p className="max-w-[836px] text-2xl md:text-4xl py-8 text-[#A8A9B2]">
+            <Image
+              className="block md:hidden"
+              src="/service.svg"
+              alt="image card"
+              height={800}
+              width={800}
+            />
+
+            <p className="max-w-[836px] text-2xl md:text-4xl py-8  md:py-44 text-[#A8A9B2]">
               Hands shaking from working out, using the app from across the
               room, divided attention, bad connection, switching exercises
               on-the-fly, knowing what weights you did the last time - all of it
@@ -91,7 +98,7 @@ const Home = () => {
             </div>
           </div>
 
-          <p className="text-[#A8A9B2] text-[26px] md:text-[30px] max-w-[836px]">
+          <p className="text-[#A8A9B2] text-[26px] md:text-[30px] md:py-20 max-w-[836px]">
             Wether you’re tracking a classic workout with sets and reps, using
             HIIT interval timers, calisthenics, running a distance, running for
             time or just want a simple list to check things off. Dropset is
@@ -99,7 +106,7 @@ const Home = () => {
           </p>
         </section>
 
-        <section className="text-white justify-start py-14">
+        <section className="text-white justify-start py-14 md:py-24">
           <div className="">
             <h1 className="text-6xl md:text-8xl font-extrabold">
               Fully <br /> featured.
@@ -208,7 +215,7 @@ const Home = () => {
 
         <section className=" ">
           <div className="py-20">
-            <div className="">
+            <div className="md:py-24">
               <h1 className="md:text-[80px] text-4xl font-bold md:leading-none text-[#E6E6E6] py-10">
                 What other <br /> people think.
               </h1>
@@ -384,8 +391,8 @@ const Home = () => {
 
         <section>
           <div>
-            <div className=" max-w-[700px]">
-              <h1 className="text-[#E6E6E6] text-4xl md:text-[80px] font-extrabold py-[30px] leading-none">
+            <div className=" max-w-[700px] ">
+              <h1 className="text-[#E6E6E6] text-4xl md:text-[80px] font-extrabold py-[30px] md:mt-36 leading-none">
                 Jacob <br />
                 Capablanca on using Dropset.
               </h1>
@@ -404,9 +411,9 @@ const Home = () => {
           </div>
         </section>
 
-        <section className=" py-40 max-w-[900px]">
+        <section className=" pt-40  md:py-24 max-w-[900px] md:mt-[300px]">
           <div>
-            <div className="flex gap-6">
+            <div className="flex  justify-between">
               <h1 className="text-white text-4xl md:text-8xl font-bold ">
                 Download <br />
                 form the app <br />
