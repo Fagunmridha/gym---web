@@ -41,7 +41,7 @@ const Home = () => {
               Athletic <br />
               by design.
             </h1>
-            <p className="text-white text-2xl md:text-3xl mb-24">
+            <p className="text-[#A8A9B2] text-2xl md:text-3xl mb-24">
               Made purly for the gym
             </p>
           </div>
@@ -80,7 +80,7 @@ const Home = () => {
           </div>
 
           <div className="flex flex-row justify-between items-center py-16">
-            <ul className="text-white font-semibold flex flex-col gap-10 flex-1">
+            <ul className="text-[#E6E6E6] font-semibold flex flex-col gap-10 flex-1">
               <li className="border-b">Distance and pace</li>
               <li className="border-b">Sets and reps</li>
               <li className="border-b">Intervals</li>
